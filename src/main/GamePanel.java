@@ -12,6 +12,7 @@ public class GamePanel extends JPanel implements Runnable {
 	public static final int HEIGHT = 600;
 	final int FPS = 60;
 	Thread gameThread; // To run the game loop
+	Board board = new Board(); // Instanciate the board class
 		
 	// Constructor
 	public GamePanel() {
